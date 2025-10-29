@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.overallWrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoContainer {
+    width: 20%;
+   
+}
+
+#logoContainer img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#navLinkContainer {
+    width: 60%;
+}
+
+#navLinkContainer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navLinkContainer ul li{
+  list-style: none;
+}
+
+#navLinkContainer ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ff1e00;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: .7s;
+    border-radius: 10px;
+
+}
+
+#navLinkContainer ul li a:hover{
+    background-color: #e30606;
+    color: yellow;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.bannerContainer img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.mainContainer {
+    width: 100%;
+    padding: 0px 40px;
+    margin-top: 30px;
+    background-color: #fff;
+
+}
+
+.mainContainer h1 {
+    text-align: center;
+    color: #ff1e00;
+    margin-bottom: 20px;
+}
+
+#photoBoxHeading{
+  margin:30px 0px;
+  color: #ff0000;
+
+}
+.photoBoxOverall{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photoBox{
+    width:22%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.photoBox img{
+   width: 100%;
+   object-fit: cover; 
+}
+
+.Galleryboxoverall{
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.mediabox {
+   width: 22%;
+   height: 200px;
+   overflow: hidden;
+   display: flex;
+     
+}
+
+.mediabox img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.TestimonialBox{
+   margin: 30px 0px;
+    color: #008000; 
+}
+
+.boxcontaineroverall{
+    width: 100%; 
+   display: flex;
+   justify-content: space-between;
+}
+
+.boxContainer {
+width: 250px;
+background-color: #fff;
+padding: 20px;
+}
+
+.photoBox {
+ width: 100%;
+ border-radius: 20px;
+ overflow: hidden;
+ }
+
+.photoBox img {
+ width: 100%;
+}
+
+.boxcontaineroverall {
+ width: 100%;
+display: flex;
+justify-content: space-between;
+ }
+
+.contentBox {
+width: 100%;
+ margin-top: 20px;
+}
+
+.contentBox h1, p {
+margin-bottom: 15px;
+}
+
+.contentBox h1 {
+color: #000fff;
+text-align: left;
+}
+
+.contentBox button {
+background-color: #000fff;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+ 
+@media (max-width: 600px){
+
+    .overallWrapper {
+    background-color: #e30606;
+}
+
+#navLinkContainer {
+    display: none;
+}
+
+.bannerContainer{
+    height: 250px;
+}
+
+.photoBoxOverall {
+    flex-wrap:wrap;
+   
+}
+
+.photoBox{
+  width: 48%;
+  height: 100px;
+
+}
+
+.photoBox img{
+   margin-bottom: 10px; 
+}
+
+
+
+#photolinkBox{
+    text-align:center;
+    color: #ff1e00;
+    margin-bottom: 20px;
+    
+}
+
+
+#photolinkBox{
+    margin: 30px 0px;
+    color: #008000;
+}
+
+.Galleryboxoverall {
+    flex-wrap: wrap;
+}
+
+.mediabox {
+   width: 48%;
+   height: 100px;
+   margin-bottom: 15px;
+  
+     
+}
+
+.boxcontaineroverall {
+ flex-wrap: wrap;
+  }
+
+.boxContainer {
+    width: 48%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.photoBox {
+    width: 100%;
+}
+
+.photoBox img {
+    width: 100%;
+}
+
+.contentBox {
+    width: 100%;
+}
+
+.contentBox h1 {
+    font-size: 20px;
+}
+
+ .contentBox h1{
+    text-align: center;
+ }
+
+ .contentBox p{
+   text-align: center;
+ }
+
+ #photoBoxHeading{
+    margin: 30px 0px;
+    color: #008000;
+ }
+
+ .photoBoxOverall{
+   flex-wrap: wrap;
+   
+}
+
+.photoBox{
+ width: 100%;
+}
+       
+
+}
+
+.photoBox img{
+    width: 100%;
+}
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+    
+
+    
+
